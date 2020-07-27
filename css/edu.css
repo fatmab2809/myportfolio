@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oswald&family=Raleway&family=Roboto+Slab:wght@500&family=Spartan:wght@500&display=swap');
+
+.navbar {
+  background-image:
+linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("https://i.imgur.com/PaUtxBV.png");
+  background-attachment: fixed;
+  font-family: 'Spartan', sans-serif;
+   background-size:cover;
+}
+.navbar-light .navbar-nav .nav-link{
+	margin:5px;
+}
+.navbar-light .navbar-brand,.navbar-light .navbar-nav .nav-link{
+   color: rgba(211,206,236,1);
+   margin-right:5px;
+   padding:3px;
+  text-align:center;
+}
+.navbar-light .navbar-toggler{
+	background-color:rgb(172 178 184 / 81%);	;
+	color:rgba(255,255,255,.8) !important;
+}
+.navbar-light .navbar-toggler-icon {
+	color:white !important;
+}
+.navbar-light .navbar-brand:hover,.navbar-light .navbar-nav .nav-link:hover, .active>.nav-link:hover{
+	color:rgba(255,255,255,1) !important;
+}
+.navbar-light .navbar-nav .nav-link:focus{
+	color:rgba(255,255,255,1);
+}
+.active>.nav-link{
+	color:rgba(1,253,183,1) !important;
+}
+.wrap a{
+	padding:1%;
+	color:rgba(255,215,255,0.7);
+	border:1px blue dotted;
+	font-family: 'Oswald', sans-serif;
+	text-decoration:none;
+}
+.wrap a:hover{
+	background:rgba(255,250,250,0.8);
+	color:black;
+}
+@font-face {
+	font-family: "AnthoniSignature";
+	src: url(../fonts/AnthoniSignature.ttf) format("truetype"),
+		url(../fonts/AnthoniSignature.woff) format("woff"),
+		url(../fonts/AnthoniSignature.woff2) format("woff2");
+}
+	
+.navbar-brand{
+	font-family: "AnthoniSignature";
+	font-size:20px;
+	padding:.5%;
+	
+}
+.hero{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url("https://i.imgur.com/PaUtxBV.png");
+	background-size: cover;
+  background-attachment: fixed;
+	height:300px;
+}
+.hero h1{
+	 padding:10%;
+	 font-family: 'Spartan', sans-serif;
+	 
+}
+body{
+	text-align:left;
+}
+.education{
+	margin:3%;
+}
+.row{
+	margin:5%;
+	margin-right:15px;
+	margin-left:15px;
+}
+h4{
+	margin:1%;
+	padding:1%;
+	font-family: 'Open Sans', sans-serif !important;
+	font-weight:bold;
+}
+.col-md-4{
+	margin-right:25px;
+}
+.col-md-4 p{
+	text-align:center;
+}
+strong{
+	font-size:20px;
+}
+p{
+	font-size:1.2em;
+	font-family: 'Open Sans', sans-serif !important;
+}
+.place{
+		font-family: 'Open Sans', sans-serif !important;
+}
+.location .fa{
+	font-size: 15px;
+}
+.location{
+	color:#22b3ae;
+}
+@media screen and (min-width:750px){
+h4 a{
+	text-decoration:none;
+	color:black;
+}
+h4 a:hover{
+	color:#2C5364;
+	text-decoration:none;
+}
+}
+#container{
+	min-height:100vh;
+	margin-bottom:-140px;
+}
+#container:after{
+	content:"";
+	height:140px;
+	display:block;
+}
+
+footer{
+	height:140px;
+	text-align:center;
+	background: #0F2027;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	padding:3%;
+	background-size:cover;
+	padding-bottom:2%;
+	
+}
+footer a{
+	font-size:1.5em;
+	font-family: 'Raleway', serif;
+	color:#fff !important;
+	opacity:0.7;
+	transition: all 0.5s linear;
+}
+footer li{
+	display:inline-block;
+	list-style-type:none;
+	margin:1%;
+}
+footer ul{
+	margin-bottom:0px;
+}
+li i,footer i{
+	color:#fff;
+	opacity:0.7;
+	transition: all 0.5s linear;
+	margin-right:2%;
+	
+}
+footer i:hover,li i:hover, footer a:hover{
+	opacity:1;
+	text-decoration:none;
+}
