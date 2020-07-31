@@ -232,7 +232,9 @@ background: linear-gradient(to bottom, #71B280, #134E5E); /* W3C, IE 10+/ Edge, 
 #int li{
 	list-style-type:none;
 }
-	
+#title a{
+	color:3613E5;
+}	
 @font-face {
 	font-family: "AnthoniSignature";
 	src: url(../fonts/AnthoniSignature.ttf) format("truetype"),
