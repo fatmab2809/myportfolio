@@ -108,8 +108,8 @@ p{
 .location .fa{
 	font-size: 15px;
 }
-.location, .location a{
-	color:#2b6530;
+.location{
+	color:#22b3ae;
 }
 @media screen and (min-width:750px){
 h4 a{
