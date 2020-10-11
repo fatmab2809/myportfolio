@@ -99,14 +99,14 @@ linear-gradient(
 }
 .wrap a{
 	padding:1%;
-	color:rgba(255,215,255,0.7);
+	color:rgba(255,215,255,0.7) !important;
 	border:1px blue dotted;
 	font-family: 'Oswald', sans-serif;
 	text-decoration:none;
 }
 .wrap a:hover{
 	background:rgba(255,250,250,0.8);
-	color:black;
+	color:black !important;
 }
 body{
 	text-align:center;
