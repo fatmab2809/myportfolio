@@ -234,7 +234,11 @@ background: linear-gradient(to bottom, #71B280, #134E5E); /* W3C, IE 10+/ Edge, 
 }
 #title a{
 	color:#3613E5;
+	text-decoration: none;
 }	
+#title a:hover{
+	color:#9992bf;
+}
 @font-face {
 	font-family: "AnthoniSignature";
 	src: url(../fonts/AnthoniSignature.ttf) format("truetype"),
